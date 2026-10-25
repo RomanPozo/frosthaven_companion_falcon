@@ -1,0 +1,27 @@
+{
+  "name": "Frosthaven: Outpost & Campaign Companion",
+  "short_name": "Frosthaven",
+  "description": "Calendario de campaña, Fase de Puesto Avanzado, árbol de escenarios, narrador y Salón de los Héroes para Frosthaven.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["games", "entertainment", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Fase de Puesto Avanzado", "short_name": "Puesto", "url": "./#outpost", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Árbol de Escenarios", "short_name": "Escenarios", "url": "./#scenarios", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Narrador", "short_name": "Narrador", "url": "./#narrator", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Salón de los Héroes", "short_name": "Salón", "url": "./#gallery", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

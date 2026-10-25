@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="0.55" stop-color="#132238"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <g id="arm">
+      <path d="M256 256 V92" />
+      <path d="M256 150 L222 118 M256 150 L290 118" />
+      <path d="M256 196 L230 172 M256 196 L282 172" />
+    </g>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- Montañas -->
+  <path d="M0 420 L88 352 L150 392 L236 318 L318 392 L392 340 L512 410 L512 512 L0 512 Z" fill="#0b1220" opacity="0.85"/>
+  <path d="M236 318 L214 338 L228 336 L238 346 L248 334 L260 340 Z M392 340 L376 354 L388 352 L396 360 L404 352 L414 356 Z" fill="#cfe3f7" opacity="0.6"/>
+  <!-- MARK:start -->
+  <circle cx="256" cy="256" r="200" fill="url(#glow)"/>
+  <!-- Copo de nieve -->
+  <g fill="none" stroke="url(#ice)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#arm"/>
+    <use href="#arm" transform="rotate(60 256 256)"/>
+    <use href="#arm" transform="rotate(120 256 256)"/>
+    <use href="#arm" transform="rotate(180 256 256)"/>
+    <use href="#arm" transform="rotate(240 256 256)"/>
+    <use href="#arm" transform="rotate(300 256 256)"/>
+  </g>
+  <!-- Corazón dorado -->
+  <path d="M256 226 L282 256 L256 286 L230 256 Z" fill="#f59e0b" stroke="#fcd34d" stroke-width="6" stroke-linejoin="round"/>
+  <!-- MARK:end -->
+</svg>
